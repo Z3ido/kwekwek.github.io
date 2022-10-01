@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #2B2928;
+    color: red;
+  }
+
+  
+  .header h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+	  color: red;
+  }
+
+  .header h1 {
+    font-size: 25px;
+  }
+
+  .img1 {
+	background: url("https://i.ibb.co/t2h36hx/community2-600x.webp");
+	width: 100%;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: red;
+    color: black;
+  }
+
+    /* Footer */
+	.footer {
+		padding: 20px;
+		text-align: center;
+		background: #2B2928;
+		margin-top: 20px;
+	  }
+
+	    /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+	margin-top: 20px;    
+  
+
+
+	/* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background: url("https://i.ibb.co/kGxF9wP/slideshow-3a-1400x.webp");
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+  }
+  .img1 {
+    background: url("https://i.ibb.co/jb8Vqg9/banner-1400x-progressive.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .img2 {
+    background: url("https://i.ibb.co/W5DCdnV/110206572-3094534007266891-5543472845270342798-n.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+
+  }
+
+  img3 {
+    background: url("https://i.ibb.co/wsjhQYP/ducktales.png");
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+
+  }
+
+  img4 {
+    background: url("https://i.ibb.co/mSJdS2G/wifi-pineapple-symbol-black-background.png");
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+
+  }
+
+  img5 {
+    background: url("https://i.ibb.co/GcxnhCB/slideshow-1a-2048x.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+
+
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #2B2928;
+    margin-top: 20px;
+  }
+
+  h2 {
+      color: red;
+  }
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+  
